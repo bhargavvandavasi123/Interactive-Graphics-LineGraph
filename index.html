@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<meta charset="utf-8">
+<head>
+    <link rel="stylesheet" href="styles.css">
+    <script src="https://d3js.org/d3.v3.min.js"></script>
+    <!-- <script src="https://d3js.org/d3.v4.min.js"></script> -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    
+</head>
+<body>
+    <div style="width:400px; height: 50px; background-color: lightgray; position: absolute; left: 35% ; text-align: center;"> 
+        <h1>Female and Male Attendance Percentage</h1>
+    </div>
+    <div>
+        <div style="width:10px; height:10px; background-color: blue; position:absolute;top:20px;left:200px;">
+            <h1 style="position: absolute; left:20px; top:-19px">Female</h1>
+        </div>
+        
+        <div style="width:10px; height:10px; background-color :orange; position:absolute;top:50px;left:200px">
+            <h1 style="position: absolute; left:20px; top:-19px">Male</h1>
+        </div>
+    </div>
+    <div class="studentDetailsDiv">
+        <table>
+            <tbody>
+                <tr>
+                    <td> Name: </td>
+                    <td> Bhargav Vandavasi</td>
+                </tr>
+                <tr>
+                    <td> Student Id: </td>
+                    <td> W9359065</td>
+                </tr>
+                <tr>
+                    <td> Module Code: </td>
+                    <td> CIS4014-N </td>
+                </tr>
+                <tr>
+                    <td>Tutor: </td>
+                    <td>Noble Joanne</td>
+                </tr>
+            </tbody>
+        </table>
+    </div>
+<label class="guideline">
+  Show Guideline & Curtain
+  <input type="checkbox" id="show_guideline" />
+</label>
+<div class="tooltipTest" >
+    <P id="genderToolTip" style="position: relative;"></P>
+    <P id="weekToolTip" style="position: relative;"></P>
+    <P id="dayToolTip" style="position: relative;"></P>
+    <P id="percentageToolTip" style="position: relative;"></P>
+</div>
+<svg></svg>
+<script src="index.js"></script>

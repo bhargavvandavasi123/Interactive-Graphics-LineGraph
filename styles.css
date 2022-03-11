@@ -1,0 +1,101 @@
+body {
+    font: 10px sans-serif;
+    margin: 0;
+  }
+  
+  path.line {
+    fill: none;
+    stroke: #666;
+    stroke-width: 3px;
+  }
+  
+  path.area {
+    fill: #e7e7e7;
+  }
+  
+  .axis {
+    shape-rendering: crispEdges;
+  }
+  
+  .x.axis line {
+    stroke: #fff;
+    stroke-width: 30;
+  }
+  
+  .x.axis .minor {
+    stroke-opacity: .5;
+  }
+  
+  .x.axis path {
+    display: none;
+  }
+  
+  .y.axis line, .y.axis path {
+    fill: none;
+    stroke: #000;
+  }
+  .guideline {
+    margin-right: 100px;
+    float: right;
+  }
+  .tooltipTest {
+    display: inline-block;
+    position:fixed;
+    top:0px;
+    left:0px;
+    padding: 0.1em ;
+    background-color:thistle;
+    border: lightgray;
+    
+    
+}
+
+.grid .tick {
+    stroke: lightgrey;
+    opacity: 0.7;
+}
+.grid path {
+      stroke-width: 0;
+}
+
+/* circle {
+    margin: 3px; 
+    padding: 0.5em;
+    background-color: orangered;
+} */
+
+.dot {
+    height: 40px;
+    width: 40px;
+    line-height: 20px;
+    border: palegreen;
+    border-width: 20px;
+    border-color:palegreen;
+    border-spacing: 30px;
+    border-radius: 50%;
+    color: white;
+    text-align: center;
+    fill : red;
+    r : 4;
+    margin : 20px;
+  }
+
+.studentDetailsDiv {
+    width: 230px;
+    height: 135px;
+    border: 1px solid #BFBFBF;
+    position: fixed;
+    top: 60%;
+    left: 5%;
+    font-size: large;
+    font-weight: 100;
+    font-style: italic;
+    box-shadow: 10px 10px 5px #aaaaaa;
+    -ms-transform: rotate(-2deg);
+    /* IE 9 */
+    -webkit-transform: rotate(-2deg);
+    /* Safari */
+    transform: rotate(-2deg);
+    background-color:lightblue;
+    border-radius : 5px;   
+}
